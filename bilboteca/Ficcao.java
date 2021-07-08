@@ -2,6 +2,10 @@ package bilboteca;
 
 public class Ficcao extends Genero {
 
-	boolean fatosReais;
+	String tipo;
 
+	public Ficcao() {
+		nome = "Ficção";
+		id = 300;
+	}
 }
