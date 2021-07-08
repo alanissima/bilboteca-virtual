@@ -1,9 +1,5 @@
 package bilboteca;
 
-/**
- * @authors Alana Brandão e Nicolly Tavassi
- *
- */
 public class Livro {
 	
 	String titulo;
