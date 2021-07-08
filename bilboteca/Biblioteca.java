@@ -1,5 +1,10 @@
 package bilboteca;
 
+/**
+ * @authors Alana Brand�o e Nicolly Tavassi
+ *
+ */
+
 public class Biblioteca implements Busca{
 
 	public Biblioteca() {
