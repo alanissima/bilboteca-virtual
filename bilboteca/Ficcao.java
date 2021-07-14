@@ -1,11 +1,14 @@
 package bilboteca;
 
-public class Ficcao extends Genero {
+public class Ficcao extends  Genero {
 
-	String tipo;
+			String tipo;
 
-	public Ficcao() {
-		nome = "Ficção";
-		id = 300;
-	}
+			public  Ficcao () {
+				Ficcao f1 = new Ficcao();
+				f1.nome = " 1984 ";
+				nome =  " Ficção " ;
+				id =  300 ;
+			}
+			
 }
