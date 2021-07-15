@@ -46,7 +46,7 @@ public class Biblioteca extends JInternalFrame implements Busca, ActionListener{
 	    lbTitulo = new JLabel("Titulo");
 	    lbAutor = new JLabel("Autor");
 	    lbAno= new JLabel("Ano");
-	    lbId = new JLabel("Id");
+	    lbId = new JLabel("ID   ");
 	    lbEditora= new JLabel("Editora");
 	    lbGenero= new JLabel("Genero");
 	    lbSinopse = new JLabel("Sinopse");

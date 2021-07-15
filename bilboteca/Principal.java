@@ -1,4 +1,5 @@
 package bilboteca;
+
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
@@ -16,18 +17,20 @@ public class Principal extends JFrame implements ActionListener{
 	JMenu menuLivro;
 	JMenuItem cadastro;
 	JDesktopPane painel;
+	Color corFundo;
 	
 	void instanciarcomponentes() {
 		barra = new JMenuBar();
 		menuLivro = new JMenu("Biblioteca");
 		cadastro = new JMenuItem("Livros");
 		painel = new JDesktopPane();
+		corFundo = new Color(37, 57, 67);
 	}
 	
 	void atribuirvalores() {
 		setSize(1024,780);
 		setJMenuBar(barra);
-		painel.setBackground(Color.blue);
+		painel.setBackground(corFundo);
 		cadastro.addActionListener(this);
 	}
 	
